@@ -20,3 +20,28 @@ let employee = {
 employee.performanceScore = 7
 Object.defineProperty(employee, "promotionEligible", {value:true})
 console.log(employee)
+
+//Task 4
+let feedback = [
+    {
+        customerName:"Alex", 
+        feedbackText:"Lorem ipsum dolor sit amet",
+        rating:15
+    },
+    {
+        customerName:"John", 
+        feedbackText:"Lorem ipsum dolor sit amet",
+        rating:7
+    },
+    {
+        customerName:"Edward", 
+        feedbackText:"Lorem ipsum dolor sit amet",
+        rating:2
+    },
+]
+feedback.push({
+    customerName:"Tyrese", 
+    feedbackText:"Lorem ipsum dolor sit amet",
+    rating:18
+})
+console.log(feedback)
