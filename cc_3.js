@@ -9,3 +9,14 @@ let orders = [2,3,1,4,8]
 orders[2] += 5
 let order_len = orders.length
 console.log(orders, order_len)
+
+//Task 3
+let employee = {
+    name:"John", 
+    role:"System administrator", 
+    performanceScore:10, 
+    isActive:true,
+}
+employee.performanceScore = 7
+Object.defineProperty(employee, "promotionEligible", {value:true})
+console.log(employee)
